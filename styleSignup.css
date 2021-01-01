@@ -1,0 +1,189 @@
+html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+
+span{
+  font-weight: bold;
+}
+
+.bg-img{
+  background:linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("horsie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
+
+.bg-txt{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 15px 3px rgba(0,0,0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  height: 70%;
+  margin: 0;
+}
+
+#signup{
+  height: 100%;
+}
+
+h2{
+  margin: 25px 12px 25px 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.form-div{
+  padding-top: 1rem;
+}
+
+::placeholder{
+  font-size: 1rem;
+  color: grey;
+}
+
+.form .user{
+  position: absolute;
+  top: 7.5rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.form .lock{
+  position: absolute;
+  top: 14.5rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.form .envelope{
+  position: absolute;
+  top: 11rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.email, .pass, .username{
+  font-size: 1rem;
+  padding: 0.25rem 0.15rem;
+  height: 2rem;
+  width: 90%;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.check{
+  position: absolute;
+  top: 14.3rem;
+  left: 2rem;
+  zoom: 1.25;
+}
+
+.oval{
+  margin: 30px 0 20px 50px;
+  width: 200px;
+  text-align: center;
+  border: 3px solid rgba(255,255,255,0);
+}
+
+.check-text{
+  position: relative;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.login{
+  width: 90%;
+  position: relative;
+  bottom: 25px;
+}
+
+.line{
+  border-top: 1px solid white;
+  width: 90%;
+  margin-top: 0.5rem;
+}
+
+.social-btn{
+  font-size: 2.5rem;
+  margin: 0 2rem 0 0;
+  padding: 0 5px 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.facebook{
+  margin-left: 0.5rem;
+}
+
+.twitter{
+  padding: 0 8px;
+  margin-right: 0.5rem;
+}
+
+.google{
+  color: #af2d2d;
+}
+
+.google:hover{
+  color: #a20a0a;
+}
+
+.forgot-log-in{
+  color: white;
+  position: relative;
+  bottom: 1rem;
+}
+
+.forgot-log-in:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.log-in{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.old-user{
+  left: 4rem;
+}
